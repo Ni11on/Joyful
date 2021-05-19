@@ -11,7 +11,7 @@ import SwiftUI
 struct JoyfulApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NameView()
         }
     }
 }

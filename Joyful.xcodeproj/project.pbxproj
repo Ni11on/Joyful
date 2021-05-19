@@ -11,6 +11,8 @@
 		17B4387E25DA209D008C44B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4387D25DA209D008C44B9 /* ContentView.swift */; };
 		17B4388025DA20A0008C44B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B4387F25DA20A0008C44B9 /* Assets.xcassets */; };
 		17B4388325DA20A0008C44B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B4388225DA20A0008C44B9 /* Preview Assets.xcassets */; };
+		17B4389325DA33BE008C44B9 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4389225DA33BE008C44B9 /* StatusView.swift */; };
+		17B4389625DA39E3008C44B9 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4389525DA39E3008C44B9 /* NameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		17B4387F25DA20A0008C44B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B4388225DA20A0008C44B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17B4388425DA20A0008C44B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B4389225DA33BE008C44B9 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		17B4389525DA39E3008C44B9 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				17B4387B25DA209D008C44B9 /* JoyfulApp.swift */,
+				17B4389525DA39E3008C44B9 /* NameView.swift */,
 				17B4387D25DA209D008C44B9 /* ContentView.swift */,
+				17B4389225DA33BE008C44B9 /* StatusView.swift */,
 				17B4387F25DA20A0008C44B9 /* Assets.xcassets */,
 				17B4388425DA20A0008C44B9 /* Info.plist */,
 				17B4388125DA20A0008C44B9 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B4387E25DA209D008C44B9 /* ContentView.swift in Sources */,
+				17B4389625DA39E3008C44B9 /* NameView.swift in Sources */,
+				17B4389325DA33BE008C44B9 /* StatusView.swift in Sources */,
 				17B4387C25DA209D008C44B9 /* JoyfulApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
